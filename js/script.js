@@ -22,7 +22,12 @@ $('.filter-item').click(function(){
      $('.filter-item').click(function(){
         $(this).addClass('active').siblings().removeClass('active')
      })
-})
+});
+// scroll top 
+$('#top').click(function () {
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+});
 })
 
 
