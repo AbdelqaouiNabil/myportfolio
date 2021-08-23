@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior:smooth ;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+}
+.navbar-brand{
+    margin-left: 5rem;
+}
+.navbar-nav{
+    margin-left: 30rem;
+
+}
+.navbar-nav li{
+    padding-left: 2rem;
+   
+}
+.nav-link{
+    font-family: 'Lato', sans-serif;
+    font-size: 13pt;  
+    color: #EFEFEF;   
+    letter-spacing: 2px;
+}
+.active{
+    color:#00bddf  ;
+    border-bottom: 3px solid #00bddf;
+}
+.navbar-nav li:hover .nav-link{
+    color:#00bddf  ;
+    border-bottom: 3px solid #00bddf;
+}
+
+.navbar-brand{
+    color: #EFEFEF; 
+    font-size: 20pt;
+    font-weight: bold;   
+    letter-spacing: 2pt;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #00bddf;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 189, 223, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+.home{
+     background-image: url("../images/back.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 92vh;
+}
+.home-content{
+    text-align: center;
+}
+ .home-content .text-1{
+    font-size: 75px;
+    font-weight: 600;
+    color: #ececec;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+ .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    color: #ececec;
+}
+.home-content .text-3 span{
+    color: #0564BF;
+    font-weight: 500;
+}
+.home-content a{
+    display: inline-block;
+    background: #A0051C;
+    color: #ececec;
+    font-size: 25px;
+    padding: 12px ;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.home-content a:hover{
+    color: #ececec;
+    background: #185ADB;
+}
+
+.container > .pic-index > img{
+    margin-top: 105px;
+    width: 700px;
+}
+.social-icons{
+    margin-top: 20px;
+}
+.social-icons .fab{
+    font-size: 20pt;
+    color: #ececec;
+    padding: 20px;
+    cursor: pointer;
+}
+.social-icons .fab:hover{
+    color:#185ADB; 
+}
+
+
+/* about section */
+.about-section{
+     padding-top: 50px;
+     height: 100vh;
+     width: 100%;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+.section-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-title > h1{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #1F2438;
+    color:#1F2438;
+  
+}
+.about .about-image{
+    width: 50%;
+}
+.about-content{
+    width: 80%;
+    padding: 100px;
+  
+}
+.about-content h1{
+    font-size:30px;
+    font-weight: 600;
+    color: #131313;
+    font-family: 'Poppins', sans-serif;
+    text-transform:uppercase;
+}
+.about-content p{
+    font-size: 16px;
+    color: #2a2a2a;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    
+}
+
+.about-content  a{
+    display: inline-block;
+    background: #A0051C;
+    color: #ececec;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    font-weight: 400;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.about-image img{
+    width: 400px;
+}
+
+/* end about section*/
+
+/*----------
+card section
+---------*/
+#gallery{
+    background-image: 
+    url('https://lh5.googleusercontent.com/proxy/w3oh8vPkBYObX9gqYJpOXMA-lraeW32SsT_6fLv032xO3OwQBeKWRWzovY9c-CLwONIsT4R3VTeZAWeDUg0f2NAYh0SEWONVpJWf-mtClY6BcbPIZKd2TEQ=s0-d');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+    
+ 
+#gallery > .section-title >h1{
+    color: rgb(255, 255, 255);
+    border-bottom: 4px solid rgb(255, 255, 255);
+    cursor: pointer;
+   
+}
+.card{
+    cursor: pointer;
+    margin-right: 20px;
+    box-shadow: -1px -5px 26px -4px rgba(223, 223, 223, 0.54);
+-webkit-box-shadow: -1px -5px 26px -4px rgba(206, 206, 206, 0.54);
+-moz-box-shadow: -1px -5px 26px -4px rgba(214, 214, 214, 0.54);
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+.btn{
+    color: #A0051C;
+    border: 2px solid #A0051C ;
+}
+.btn:hover{
+    color: white;
+    background-color:#A0051C; 
+    border: 2px solid #A0051C ;
+}
+/* --------
+projects section
+---------------*/
+
+.portfolio-section{
+  margin-top: 150px;
+    min-height: 100vh;
+    
+}
+.portfolio-section .section-title{
+    margin-bottom: 20px;
+}
+.portfolio-section .portfolio-filter{
+     padding: 0 15px;
+     flex: 0 100%;
+     width: 100%;
+     text-align: center;
+}
+.portfolio-section .portfolio-filter .filter-item{
+    display: inline-block;
+    margin: 0 5px 10px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+.portfolio-section .portfolio-filter .filter-item.active{
+    color: #A0051C ;
+    border-bottom: 3px outset #A0051C  ;
+}
+.portfolio-section .portfolio-filter .filter-item:hover:not(.active){
+    opacity: 0.6;
+}
+.portfolio-filter{
+    margin-top: 50px;
+}
+.portfolio-filter .filter-item {
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.portfolio-items {
+    margin-top: 100px;
+    flex: 0 0 33%;
+    max-width: 53%;
+    
+}
+.portfolio-item-img{
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+.portfolio-item-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.view-more{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.267);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+.portfolio-item-img:hover .view-more{
+    transform: scale(1);
+    visibility: visible;
+}
+.view-more > a{
+    color: #A0051C;
+    background-color: white;
+    padding:10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.portfolio-item h3{
+    text-transform:uppercase;
+    font-size: 16pt;
+}

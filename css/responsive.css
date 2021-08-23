@@ -1,0 +1,134 @@
+/* for phones */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+    /* header section */
+    .home{
+        height: 150vh;
+    }
+    .navbar-brand{
+        margin-left: 0rem;
+    }
+    .navbar-nav{
+        margin-left: 0;
+    
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+     .container > .pic-index > img{
+      width: 300px;
+      margin: 0 auto;
+    } 
+    /* about section */
+    .about{
+        flex-direction: column;
+    }
+    #about{
+        height: 150vh;
+        
+    }
+    .about-content {
+     width: 100%;
+    }
+    .about-image img{
+       display: none;
+    }
+    
+
+    /* service section */
+    #gallery{
+        height: 240vh;
+        background-attachment:local;
+    }
+    .card{
+        text-align: center;
+        max-width: 400px;
+         margin: 0 auto; 
+         float: none; 
+        margin-bottom: 20px; 
+
+    }
+    .card:hover{
+        transform: none;
+        
+    }
+    #gallery .section-title{
+        margin-bottom: 50px;
+    }
+
+    /* projects section */
+    .portfolio .container .row {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+
+  /*for ipad*/
+
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    /* header section */
+    .home{
+        height: 125vh;
+    }
+    .navbar-brand{
+        margin-left: 0rem;
+    }
+    .navbar-nav{
+        margin-left: 0;
+    
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+    .container > .pic-index > img{
+        width: 500px;
+        margin: 0 auto;
+      } 
+    /* about section */
+    .about{
+        flex-direction: column;
+    }
+    #about{
+        height: 70vh;
+    }
+    .about-content {
+     width: 100%;
+    }
+    .about-image img{
+       display: none;
+    }
+    
+
+    /* service section */
+    #gallery{
+        height: 200vh;
+        background-attachment:local;
+    }
+    .card{
+        text-align: center;
+        max-width: 400px;
+         margin: 0 auto; 
+         float: none; 
+        margin-bottom: 20px; 
+
+    }
+    .card:hover{
+        transform: none;
+        
+    }
+    #gallery .section-title{
+        margin-bottom: 50px;
+    }
+
+    /* portfolio section */
+    .portfolio .container .row {
+        display: flex;
+        flex-direction: column;
+    }
+  }
